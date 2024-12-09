@@ -1,3 +1,4 @@
+<?php 
 
 function curl_fetch(string $url, string $http_method = 'GET', array $headers = [], array $data = [], int $timeout = 30): array
 {
